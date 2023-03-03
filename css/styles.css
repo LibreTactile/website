@@ -34,6 +34,12 @@ body {
   overflow: visible;
 }
 
+/* Navbar */
+
+.navbar {
+  height: 8rem;
+}
+
 .bg-body-tertiary {
   background-color: #ffffff !important;
 }
@@ -54,6 +60,24 @@ body {
   font-weight: bold;
 }
 
+.navbar-collapse {
+  background-color: #ffffff;
+}
+
+/* Main Banner */
+
+.main-banner-text {
+  padding-top: 6rem;
+}
+
+.main-banner-text h1 {
+  margin-bottom: 2rem;
+}
+
+.main-banner-text p {
+  margin-bottom: 2rem;
+}
+
 .btn-primary {
   background-color: var(--primary);
   border: var(--primary);
@@ -71,23 +95,21 @@ body {
   background-color: var(--primary);
 }
 
+/* Characteristics of LibreTactile */
+
 #Characteristics-LibreTactile p {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
 }
-#Characteristics-LibreTactile {
-  max-width: 800px;
-  margin: auto;
-}
+
+/* News */
+
 #News {
   background-color: var(--secondaryVeryLight);
 }
-.rownews {
-  margin-left: 0px;
-  margin-right: 0px;
-}
+
 #News .img {
-  opacity: 0.2;
+  opacity: 0.8;
   transform: rotate(10deg);
 }
 
@@ -102,87 +124,120 @@ body {
   margin-bottom: 0;
 }
 
-p {
-  margin-bottom: 0;
-}
+/* Feedback */
+
 #feedback {
   background: url(../img/quoteTiles.svg) repeat;
   background-position: center;
   background-size: 10%;
 }
+
 #feedback h2 {
-  margin-bottom: 80px;
+  margin-bottom: 4rem;
 }
+
+/* Partners */
+
 #partners h2 {
-  margin-bottom: 80px;
+  margin-bottom: 4rem;
 }
+
 #partners img {
   margin-bottom: 2rem;
 }
+
+/* Footer */
+
 #footer {
   background-color: var(--secondaryVeryLight);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 .footer-link {
   color: var(--grayDark);
 }
+
 .footer-link:hover {
   color: var(--primary);
 }
+
 .footer-alignment {
   padding-top: 0.5rem;
 }
+
 .open-gear {
   margin-bottom: 2rem;
 }
+
+/* The Team */
+
 .the-team-link {
   color: var(--primary);
 }
+
 .the-team-link:hover {
   color: var(--primaryDark);
   font-weight: bold;
 }
+
+/* Our History */
+
 #our-history {
   background-image: url(../img/history.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.transbox {
-  background-color: #ffffff;
-  opacity: 0.9;
-}
-#design-principles h2 {
-  margin-bottom: 3rem;
-}
+
+/* Our Projects */
+
 #projects h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
+
 #projects p {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
+
+/* Design principles */
+
+#design-principles h2 {
+  margin-bottom: 4rem;
+}
+
+/* FAQs */
+
 .accordion-button:focus {
   border-color: var(--primary);
   box-shadow: var(--primary);
 }
+
 .accordion-button:not(.collapsed) {
   background-color: var(--primaryExtraLight);
   color: var(--grayDark);
 }
+
 #faqs .display-6 {
-  margin-bottom: 3rem;
-  max-width: 500px;
+  margin-bottom: 4rem;
 }
-#faqs .row {
-  margin-bottom: 3rem;
+
+.faqs .row {
+  margin-bottom: 4rem;
 }
+
+/* Contact */
+
 #contact img {
   margin-top: 2rem;
 }
 #get-in-touch h2 {
   margin-bottom: 2rem;
 }
+
+/* Error Page */
+
 .error-page p {
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -194,79 +249,74 @@ p {
     background: url(../img/pics/hero.svg) no-repeat;
     background-position: center bottom;
     background-size: 90%;
-    height: 560px;
-    margin-bottom: 80px;
-  }
-  .main-banner-text {
-    max-width: 560px;
-    padding-top: 120px;
-  }
-  .main-banner-text h1 {
-    margin-bottom: 40px;
-  }
-  .main-banner-text p {
-    margin-bottom: 40px;
-  }
-  #News {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    height: 35rem;
+    margin-bottom: 4rem;
   }
 
   #Characteristics-LibreTactile {
-    padding-bottom: 80px;
+    padding-bottom: 2rem;
   }
+
+  #News {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   #feedback {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #partners {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #about-us {
-    max-width: 800px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #about-us p {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .our-history {
-    max-width: 800px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #our-history p {
     margin-top: 2rem;
   }
   #the-team {
-    max-width: 800px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #the-team p {
     margin-top: 2rem;
   }
-  #design-principles {
-    margin-bottom: 80px;
-  }
+
   #projects {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
+
+  #design-principles {
+    margin-bottom: 4rem;
+  }
+
+  #design-principles .col1 {
+    margin-bottom: 4rem;
+  }
+
   #faqs {
-    max-width: 800px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
   #contact {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #get-in-touch {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .error-page {
     margin-top: 120px;
@@ -279,91 +329,89 @@ p {
   #main-banner {
     background: url(../img/pics/hero.svg) no-repeat;
     background-position: center bottom;
-    background-size: 90%;
-    height: 500px;
-    margin-bottom: 80px;
+    background-size: 100%;
+    height: 30rem;
+    margin-bottom: 4rem;
   }
+
   .main-banner-text {
-    max-width: 560px;
-    padding-top: 80px;
+    padding-top: 4rem;
   }
-  .main-banner-text h1 {
-    margin-bottom: 40px;
-  }
-  .main-banner-text p {
-    margin-bottom: 40px;
-  }
-  #News {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+
   #Characteristics-LibreTactile {
-    padding-bottom: 80px;
+    padding-bottom: 2rem;
   }
+
+  #News {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   #feedback {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #partners {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
-  #partners .row img {
-    width: 150px;
-  }
+
   #about-us {
-    max-width: 560px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #about-us p {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .our-history {
-    max-width: 560px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #our-history p {
     margin-top: 2rem;
   }
   #the-team {
-    max-width: 560px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #the-team p {
     margin-top: 2rem;
   }
   #design-principles {
-    margin-bottom: 80px;
+    margin-bottom: 4rem;
   }
   #design-principles h2 {
     margin-bottom: 2rem;
   }
+
+  #design-principles .col1 {
+    margin-bottom: 2rem;
+  }
+
+  #projects {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
   #projects h2 {
     margin-bottom: 2rem;
   }
-  #projects {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+
   .card {
     margin-top: 2rem;
   }
   #faqs {
-    max-width: 560px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
+
   #contact {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #get-in-touch {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .error-page {
     margin-top: 80px;
@@ -377,96 +425,84 @@ p {
     background: url(../img/pics/hero.svg) no-repeat;
     background-position: center bottom;
     background-size: 110%;
-    height: 500px;
-    margin-bottom: 40px;
+    height: 30rem;
+    margin-bottom: 4rem;
   }
   .main-banner-text {
-    max-width: 420px;
-    padding-top: 40px;
-    text-align: center;
+    max-width: 25rem;
   }
-  .main-banner-text h1 {
-    margin-bottom: 40px;
-  }
-  .main-banner-text p {
-    margin-bottom: 40px;
-  }
-  #News {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+
   #Characteristics-LibreTactile {
-    padding-bottom: 40px;
+    padding-bottom: 2rem;
   }
-  /* .rownews {
-    margin-left: -120px;
-    margin-right: -120px;
-  } */
+
+  #News {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   #feedback {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   #partners {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
-  #partners .row img {
-    width: 100px;
-  }
+
   #about-us {
-    max-width: 500px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #about-us p {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .our-history {
-    max-width: 500px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   #our-history p {
     margin-top: 2rem;
   }
   #the-team {
-    max-width: 500px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #the-team p {
     margin-top: 2rem;
   }
   #design-principles {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #design-principles h2 {
     margin-bottom: 2rem;
   }
-  #projects h2 {
-    margin-bottom: 1rem;
-  }
+
   #projects {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
+
+  #projects h2 {
+    margin-bottom: 0rem;
+  }
+
   .card {
     margin-top: 2rem;
   }
   #faqs {
-    max-width: 500px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #contact {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   #get-in-touch {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
   .error-page {
     margin-top: 80px;
@@ -480,89 +516,70 @@ p {
     background: url(../img/pics/hero.svg) no-repeat;
     background-position: center bottom;
     background-size: 110%;
-    height: 500px;
-    margin-bottom: 40px;
+    height: 30rem;
+    margin-bottom: 4rem;
   }
-  .main-banner-text {
-    max-width: 420px;
-    padding-top: 40px;
-    text-align: center;
-  }
-  .main-banner-text h1 {
-    margin-bottom: 20px;
-  }
-  .main-banner-text p {
-    margin-bottom: 20px;
-  }
-  #News {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+
   #Characteristics-LibreTactile {
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
   }
-  #Characteristics-LibreTactile .row img {
-    width: 80px;
-    height: 80px;
+
+  #News {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+
   #feedback {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   #feedback h2 {
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
   }
-  #partners {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  #partners .row img {
-    width: 100px;
-  }
+
   #about-us {
-    max-width: 350px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #about-us p {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
   .our-history {
-    max-width: 350px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   #our-history p {
     margin-top: 2rem;
   }
   #the-team {
-    max-width: 350px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #the-team p {
     margin-top: 2rem;
   }
-  #design-principles {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+
   #projects {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .card {
     margin-top: 2rem;
   }
+
+  #design-principles {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   #faqs {
-    max-width: 350px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   #get-in-touch {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .error-page {
     margin-top: 80px;
