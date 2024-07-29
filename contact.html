@@ -89,7 +89,7 @@
       </nav>
     </div>
 
-    <!-- Join Us -->
+    <!-- Interested in our projects -->
     <section class="container" id="contact">
       <div class="contact text-center">
         <div class="row justify-content-evenly">
@@ -164,34 +164,31 @@
         </div>
       </div>
     </section>
-    <section id="get-in-touch">
-      <div class="row justify-content-evenly">
-        <div class="col-8">
-          <h2 class="display-6">Get in touch!</h2>
+
+    <!--End of Interested in our projects-->
+
+    <!--Contact info and Get in touch-->
+    <section class="container">
+      <div class="row" id="contact-section">
+        <div class="col-4" id="contact-info">
+          <h2>Contact information</h2>
           <p>
             Need help building or modifying a project? Want to encourage the
             team or have a great idea for one of our projects? Check out our
-            <a class="footer-link" href="faqs.html"> FAQ</a>, join the
+            <a class="light-link" href="faqs.html"> FAQs</a>, join the
             <a
-              class="footer-link"
+              class="light-link"
               href="https://github.com/orgs/LibreTactile/discussions"
               target="_blank"
             >
               discussion</a
-            >, or email us at
-            <a
-              class="footer-link"
-              href="mailto:libretactile@gmail.com"
-              target="_blank"
-            >
-              libretactile@gmail.com</a
-            >.
+            >, or send us a message.
           </p>
           <br />
           <p>
             Don't forget to read the
             <a
-              class="footer-link"
+              class="light-link"
               href="https://github.com/LibreTactile/.github/blob/main/docs/code_of_conduct.md"
               target="_blank"
             >
@@ -200,21 +197,53 @@
             to understand the kind of open and welcoming environment we promote.
           </p>
           <p>
-            Stay up-to-date on our latest developments and news by following us
-            on GitHub.
-            <a href="https://github.com/LibreTactile" target="_blank">
+            You can also stay up-to-date on our latest developments and news by following us
+            on
+            <a class="light-link" href="https://github.com/LibreTactile" target="_blank">GitHub
+            </a>
+            <a class="light-link" href="https://github.com/LibreTactile" target="_blank">
               <img
-                src="img/github.svg"
+                src="img/github-white.svg"
                 alt="Logo of link to github page"
                 width="20rem"
-              />
-            </a>
+              /></a> or signing up to our newsletter.
           </p>
         </div>
+          <div class="col-8" id="contact-form">
+            <div class="row">
+              <div>
+                <h2>Get in touch</h2>
+              </div>
+              <div class="col">
+                <label for="InputName" class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Type your name here" aria-label="Name">
+              </div>
+              <div class="col">
+                <label for="InputEmail" class="form-label">Email</label>
+                <input type="text" class="form-control" placeholder="name@example.com" aria-label="Email">
+              </div>
+            </div>
+            <div class="col">
+              <label for="Subject" class="form-label">Subject</label>
+              <select class="form-select" aria-label="Subject">
+                <option selected>Choose a subject</option>
+                <option value="1">Inquiry</option>
+                <option value="2">Collaboration proposal</option>
+                <option value="2">Request for support</option>
+                <option value="3">Other</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="InputMessage" class="form-label">Message</label>
+              <textarea class="form-control" id="Message" placeholder="Write your message here" rows="5"></textarea>
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
       </div>
     </section>
-
-    <!--End of Join Us-->
+    <!--End of Contact info and Get in touch-->
 
     <!--Footer-->
     <section id="footer">
