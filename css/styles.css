@@ -8,21 +8,22 @@ body {
   --primary: #00897b;
   --primaryDark: #01524a;
   --primaryLight: #01bba8;
-  --primaryExtraLight: #e4f5f3;
-  --secondary: #0d0089;
-  --secondaryDark: #090056;
-  --secondaryLight: #1500d2;
-  --secondaryVeryLight: #f1f1f7;
+  --primaryExtraLight: #FAFCFC;
+  --secondary: #F0A322;
+  --secondaryDark: #B06E00;
+  --secondaryLight: #F0B44F;
+  --secondaryVeryLight: #FFFCF7;
   --accents: #ffffff;
   --gray: #414141;
   --grayDark: #343434;
   --grayLight: #757575;
 
-   /* Pading and Margin variables */
+   /* Pading, margin and spacing variables */
    --xsmall: 1rem;
    --small: 2rem;
    --medium: 4rem;
    --large: 8rem;
+   --xlarge: 16rem;
 }
 
 .skip-navigation {
