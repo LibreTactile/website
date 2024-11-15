@@ -1,18 +1,10 @@
-body {
-  color: var(--grayDark);
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-}
-
 :root {
   --primary: #00897b;
   --primaryDark: #01524a;
-  --primaryLight: #01bba8;
-  --primaryExtraLight: #FAFCFC;
-  --secondary: #F0A322;
-  --secondaryDark: #B06E00;
-  --secondaryLight: #F0B44F;
-  --secondaryVeryLight: #FFFCF7;
+  --primaryExtraDark: #063E38;
+  --primaryLight: #7BC5BE;
+  --primaryExtraLight: #E4F5F3;
+  --primarySuperExtraLight: #F0FAF9;
   --accents: #ffffff;
   --gray: #414141;
   --grayDark: #343434;
@@ -26,6 +18,39 @@ body {
    --xlarge: 16rem;
 }
 
+body {
+  color: var(--grayDark);
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Font */
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--primaryExtraDark);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primaryExtraDark);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--primaryExtraDark);
+}
+
+.body-large {
+  font-size: 1.25rem;
+}
+
+.caption {
+  font-size: .75rem;
+}
+
 .skip-navigation {
   position: absolute;
   left: -10000px;
@@ -34,6 +59,7 @@ body {
   height: 1px;
   overflow: hidden;
 }
+
 .skip-navigation:focus {
   position: static;
   width: auto;
@@ -41,7 +67,7 @@ body {
   overflow: visible;
 }
 
-/* Links */
+/* Delete Links they were for old contact form
 .light-link {
   color: var(--accents);
 }
@@ -50,30 +76,29 @@ body {
   color: var(--primaryLight);
 }
 
+*/
+
 /* Navbar */
 
 .navbar {
-  height: 8rem;
+  height: 6rem;
 }
 
 .bg-body-tertiary {
-  background-color: #ffffff !important;
+  background-color: #ffffff00 !important;
 }
 
 .nav-link {
-  color: var(--grayDark);
+  color: var(--primaryExtraDark);
 }
 
 .navbar-nav .nav-link.active {
-  color: var(--primaryDark);
-  text-decoration: underline;
-  font-weight: bold;
+  color: var(--primary);
 }
 
 .nav-link:focus,
 .nav-link:hover {
   color: var(--primary);
-  font-weight: bold;
 }
 
 .navbar-collapse {
@@ -94,13 +119,27 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Buttons */
+
 .btn-primary {
-  background-color: var(--primary);
-  border: var(--primary);
+  background: linear-gradient(180deg, #00897b, #063E38);
+  border: none;
+  border-radius: 15px;
 }
 
 .btn-primary:hover {
-  background-color: var(--primaryDark);
+  background: linear-gradient(180deg, #063e38, #00897b);
+}
+
+.btn-secondary {
+  background: linear-gradient(180deg, #E4F5F3, #F0FAF9);
+  border: var(--primary);
+  border-radius: 15px;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(180deg, #F0FAF9, #E4F5F3);
+  border: var(--primaryExtraDark);
 }
 
 .btn-check:checked + .btn,
